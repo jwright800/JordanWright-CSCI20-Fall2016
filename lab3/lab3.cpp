@@ -1,7 +1,7 @@
 /* 
     Jordan Wright
     8/30/16
-    A mad libs game that get's user input and out puts a paragragh.
+    A mad libs game that gets user input and outputs a paragragh.
 */
 
 #include <iostream> 
