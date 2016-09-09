@@ -63,5 +63,6 @@ int main()
     
     cout << monster5.monster_name << ": " << monster5.head << ", " << monster5.eyes << ", " << monster5.ears << ", "
          << monster5.nose << ", " << monster5.mouth << "." << endl;
-    
+ 
+    return 0;   
 }

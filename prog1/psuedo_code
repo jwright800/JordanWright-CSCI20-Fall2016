@@ -1,0 +1,13 @@
+include
+main()
+
+variables: name, hours, rate, gross pay, and net pay.
+
+input: Get values for variables
+
+gross pay = hours * rate
+
+net pay = gross pay - (gross pay * .17)
+
+output: wage slip with name, hours, rate, gross pay, and net pay.
+            
