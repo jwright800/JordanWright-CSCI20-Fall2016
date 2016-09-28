@@ -1,0 +1,25 @@
+class weightConverter
+    private:
+        variable earthWeight
+        
+    public:
+        constructors 
+        
+        setPlanetWeight() // multiples mutator funtions
+            All convert to earth weight
+        
+        getPlanetWeight() // multiples accessor funtions
+            convert to specific planet from earth weight
+            
+        PrintWeight()
+            prints weight on all planets
+    
+    
+main(){
+
+input: create object
+       put weights into function
+       
+output: use print weight
+
+}

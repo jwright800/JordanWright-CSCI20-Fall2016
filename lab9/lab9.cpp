@@ -9,7 +9,7 @@ using namespace std;
 
 class TemperatureConverter {
     public:
-        TemperatureConverter();
+        TemperatureConverter();           //constructors
         TemperatureConverter(double kelvin_ini);
         
         void SetTempFromKelvin(double temp); // mutators
