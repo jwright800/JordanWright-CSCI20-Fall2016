@@ -1,0 +1,24 @@
+variables: randomNumHigh
+           randomNumLow
+           randomNum
+           userGuess
+           score
+           
+while loop until guess is correct 
+while(userGuess != randomNum){
+    
+    ask for guess
+    
+    if correct << winner << score
+    
+    else << guess again
+        --score
+        
+    }
+
+
+
+input: randomNumHigh, randomNumLow, userGuess
+
+output: ask for guess between users numbers 
+        score
