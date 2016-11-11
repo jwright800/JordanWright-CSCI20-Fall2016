@@ -1,0 +1,14 @@
+variables
+    string fileName;
+    string uniqueWord[100];
+    int numOccurs;
+    int originalLine;
+    
+Ask user for file name.
+
+
+Loop until end of file(
+    Search file for unique words.
+    Record occurence position.
+    Compare to other words in file, record duplicates 
+    Print out the word and number of occurences.

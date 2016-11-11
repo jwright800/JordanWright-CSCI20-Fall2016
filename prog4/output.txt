@@ -1,0 +1,20 @@
+   Word    | Occurrence # | Position of First Occurrence
+Little     | 1            | 1
+Miss       | 2            | 2
+Muffet     | 2            | 3
+sat        | 2            | 4
+tuffet     | 1            | 7
+Eating     | 1            | 8
+her        | 2            | 9
+curds      | 1            | 10
+and        | 1            | 11
+whey       | 1            | 12
+Along      | 1            | 13
+came       | 1            | 14
+spider     | 1            | 16
+Who        | 1            | 17
+down       | 1            | 19
+beside     | 1            | 20
+And        | 1            | 22
+frightened | 1            | 23
+away       | 1            | 26
