@@ -3,6 +3,8 @@
     Created: 11/8/16
     Last update: 11/10/16
     
+    INCOMPLETE
+    
 */
 
 #include <iostream>
@@ -19,7 +21,6 @@ class FileInput {
         FileInput();
         void SetFile(string file);
         void GetFile();
-        bool EOF();
         ifstream TransferFile();
         void CloseFile();
     
@@ -38,10 +39,6 @@ void FileInput::SetFile(string file){
 
 void FileInput::GetFile(){
     txtFile.open(fileName);
-}
-
-bool FileInput::EOF(){
-    return txtFile.eof();
 }
 
 ifstream FileInput::TransferFile(){
@@ -69,8 +66,8 @@ int main(){
     file1.SetFile(userFile);
     file1.GetFile();
     file1.TransferFile();
-     while(!file1.EOF()){
-             file1.TransferFile() >> wordFile[i];
+     while(i < 50){
+             wordFile[i] = file1.TransferFile();
              ++i;
         }
     
