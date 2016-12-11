@@ -1,0 +1,28 @@
+The goal of this program is to create a hangman game. It will give the user a choice of creating their own word or it will read in a list of words 
+from a file and select one at random. There will be 3 difficulty levels based on the length of the word. The user is allowed six errors. They guess
+a letter and if it is in the word it is shown. If not the user recieves a letter or a body part is added.
+
+variables
+    array[] - holds a list of words 
+    string word - holds correct word
+    char userGuess
+    int wrongGuesses
+    
+class for getting the words    
+    
+main()
+    
+random word is selected from the list of words
+
+loop
+    user is asked to make a guess
+    
+    if the character matches a character in the word it is displayed in the correct position.
+    
+    if the guess is wrong a limb or letter of "hangman" is added. +1 wrongGuesses.
+
+
+
+
+
+
